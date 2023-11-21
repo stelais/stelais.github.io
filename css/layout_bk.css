@@ -321,19 +321,26 @@ fieldset[disabled] .btn-theme {
 
 .promo-block .promo-block-title {
   font-size: 70px;
-  color: #fff;
   line-height: 1;
+  font-weight: bold;
+  color: #FAFAFA;
+  text-shadow: -1px -1px 1px #FF6AD5, 1px -1px 1px #FF6AD5, -1px 1px 1px #FF6AD5, 1px 1px 1px #FF6AD5;
 }
 
 @media (max-width: 480px) {
   .promo-block .promo-block-title {
     font-size: 50px;
+    font-weight: bold;
+    color: #FAFAFA;
+    text-shadow: -1px -1px 1px #FF6AD5, 1px -1px 1px #FF6AD5, -1px 1px 1px #FF6AD5, 1px 1px 1px #FF6AD5;
   }
 }
 
 .promo-block .promo-block-text {
   font-size: 25px;
-  color: #fff;
+  font-weight: bold;
+  color: #FAFAFA;
+  text-shadow: -1px -1px 1px #FF6AD5, 1px -1px 1px #FF6AD5, -1px 1px 1px #FF6AD5, 1px 1px 1px #FF6AD5;
 }
 
 .promo-block .promo-block-divider {
