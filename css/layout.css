@@ -294,7 +294,8 @@ fieldset[disabled] .btn-theme {
   width: 40px;
   height: 40px;
   font-size: 16px;
-  color: #fff;
+  color: #515769;
+  background: #fff;
   text-align: center;
   border-radius: 50%;
   vertical-align: middle;
@@ -305,11 +306,29 @@ fieldset[disabled] .btn-theme {
 }
 
 .social-icons:hover {
-  color: #515769;
-  background: #fff;
+  color: #fff;
+  background: #515769;
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+/*------------------------------------------------------------------
+    [Promo Banner]
+------------------------------------------------------------------*/
+.promo-banner {
+  text-align: center;
+}
+
+.promo-banner .promo-banner-title {
+  font-size: 50px;
+  color: #fff;
+}
+
+.promo-banner .promo-banner-text {
+  font-size: 20px;
+  color: #fff;
+  opacity: .8;
 }
 
 /*------------------------------------------------------------------
